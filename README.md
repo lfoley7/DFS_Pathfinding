@@ -1,8 +1,8 @@
-# Pathfinding Visualization
+# Dijkstra's Algorithm Visualization
 
 A Python application that visualizes Dijkstra's algorithm for finding optimal paths through various terrain scenarios.
 
-![Pathfinding Demo](https://via.placeholder.com/800x400?text=Pathfinding+Visualization)
+![Pathfinding Demo](pathfinding_example.png)
 
 ## Overview
 
@@ -63,8 +63,8 @@ Terrains are represented as 2D grids where each cell has a weight:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/pathfinding-visualization.git
-   cd pathfinding-visualization
+   git clone https://github.com/yourusername/Dijkstra_Pathfinding.git
+   cd Dijkstra_Pathfinding
    ```
 
 2. Install dependencies:
@@ -150,12 +150,3 @@ def dijkstra_shortest_path(grid, start, end):
     
     return None, float('inf')
 ```
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Inspired by pathfinding algorithms used in video games and navigation systems
-- Thanks to the matplotlib team for the visualization library
